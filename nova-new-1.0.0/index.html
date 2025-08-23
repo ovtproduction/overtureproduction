@@ -11,7 +11,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Nova Bootstrap Template</title>
+  <title>Welcome to Overture Production</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -48,10 +48,9 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Overture Production</h1>
+  <a href="index.html" class="logo d-flex align-items-center">
+    <img src="assets/img/logoovt.png" class="site-logo" alt="Overture Production">
+  </a>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -84,7 +83,7 @@
               <p>Congratulation! You have landed on Tokyo's number one social media agency. Ready to breaking through your social media boundaries? </p>
             </blockquote>
             <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="file:///Users/user/Docs/Tugas%20Kuliah/Informatics/Finals/nova-new-1.0.0/about.html" class="btn-get-started">Get Started</a>
+              <a href="about.html" class="btn-get-started">Get Started</a>
             </div>
           </div>
         </div>
@@ -213,10 +212,10 @@
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar2-event-fill" style="color: #15bfbc;"></i></div>
             <div>
-              <h4 class="title">Key Action Leaders (KOL) Specialist and Consultant</h4>
-              <p class="description">Our KOL specialist team curates, manages, and scales influencer collaborations that align perfectly with your brand values.</p>
+              <h4 class="title">Event Planning and Organizing</h4>
+              <p class="description">From seminars to musical dramas, Overture Production will bring your dream event to reality.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -253,7 +252,7 @@
             <div class="text-center">
               <h3>Set to pursue your own dream social media page?</h3>
               <p>Contact us to inquire more or consult with our social media specialist.</p>
-              <a class="cta-btn" href="file:///Users/user/Docs/Tugas%20Kuliah/Informatics/Finals/nova-new-1.0.0/contact.html">Contact Us</a>
+              <a class="cta-btn" href="contact.html">Contact Us</a>
             </div>
           </div>
         </div>
@@ -323,6 +322,79 @@
         </div>
       </div>
 
+<head>
+  <meta charset="UTF-8">
+  <title>Inquiries</title>
+  <style>
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 45vh;
+      background-color: #f0f0f0;
+    }
+
+    .contact-form {
+      background: #fff;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+      font-family: Helvetica, Helvetica;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="center-container">
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <input type="text" id="subject" placeholder="Subject">
+    <textarea id="message" rows="5" placeholder="Your message here..."></textarea>
+    <button onclick="sendEmail()">Send</button>
+  </div>
+</div>
+
+<script>
+  function sendEmail() {
+    const subject = document.getElementById("subject").value;
+    const body = document.getElementById("message").value;
+    const email = "youremail@example.com"; // Replace with your actual email address
+
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+  }
+</script>
+
+</body>
+
+
     </section><!-- /Features Section -->
 
   </main>
@@ -336,7 +408,7 @@
             <a href="index.html" class="logo d-flex align-items-center">
               <span class="sitename">Overture Production</span>
             </a>
-            <h4>Creative Partnerships. Powerful Content. Real Impact.</h4>
+            <h4>Your Vision, Amplified.</h4>
             <div class="social-links d-flex mt-4">
               <a href="https://www.instagram.com/overtureproduction/"><i class="bi bi-instagram"></i></a>
               <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGDGqZTvllMczzbSShQfVTCVGzmVgbtbrCTcmlckcBrvTJpmRgBGgpSHxRhSrXrjwMSQV"><i class="bi bi-mailbox"></i></a>
@@ -367,22 +439,16 @@
     </div>
 
     <div class="container copyright text-center">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Group of Overwork Projects.</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">2025 Overwork Projects Group.</strong> <span>All Rights Reserved.</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <strong class="px-1 sitename"></strong>23319010 - Arif Dhiya Aryaputra.</strong> <span>Introduction to Computing, Spring 2025</span>
-      </div>
+       </div>
       <br>
-    </br>
-      <p>Overture Production is a social media agency founded and run by me and my friends. Although it's a group, this website is made by me and according to prof. Ozaydin's guidance, used online template for the design. Hopefully, this website will launched for the company after this class finishes.</p>
-    </div>
-
-  </footer>
-
-  <!-- Scroll Top -->
+ 
+      <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
